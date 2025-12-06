@@ -25,9 +25,9 @@ MediBot is an intelligent, real-time AI health assistant designed to provide med
   - **Responsive Design**: Works perfectly on desktop and mobile devices.
 
 - **⚡ Core Utilities**:
-  - **Emergency Actions**: Quick access to emergency numbers (1990/911).
+  - **Emergency Actions**: Quick access to emergency numbers (1990).
   - **Local History**: Chat and voice session history persisted locally.
-  - **Health Profile**: Save your medical context (allergies, conditions) for personalized AI responses.
+  - **Health Profile**: Save your medical context (allergies, conditions) for personalised AI responses.
 
 ## 🛠️ Tech Stack
 
@@ -96,3 +96,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
+
+
+Designed & Developed Innovative Solutions  By Kavishka Thilakarathna©️

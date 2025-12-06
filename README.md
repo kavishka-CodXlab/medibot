@@ -70,6 +70,26 @@ MediBot is an intelligent, real-time AI health assistant designed to provide med
    ```
    Open [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal) to view the app.
 
+## 🚀 Deployment
+
+This project uses `Vite` and can be easily deployed to platforms like Netlify or Vercel.
+
+### Important: Environment Variables
+For the app to work in production, you **MUST** configure the environment variable in your deployment platform settings.
+
+**Key**: `VITE_GEMINI_API_KEY`
+**Value**: `AIza...` (Your actual Google API Key)
+
+#### Netlify
+1. Go to **Site settings** > **Configuration** > **Environment variables**.
+2. Click **Add a variable** ➔ Key: `VITE_GEMINI_API_KEY` ➔ Value: `Your Key`.
+3. Deploy the site.
+
+#### Vercel
+1. Go to **Settings** > **Environment Variables**.
+2. Add Key: `VITE_GEMINI_API_KEY` ➔ Value: `Your Key`.
+3. Click **Save** and **Redeploy**.
+
 ## 📱 Usage Guide
 
 1. **Setup Profile**: Click the user icon in the header to set up your age, gender, and medical conditions for better context.

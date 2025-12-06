@@ -99,4 +99,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 
 
-Designed & Developed Innovative Solutions  By Kavishka Thilakarathna©️
+Designed and Developed by Kavishka Thilakarathna ©️ — Innovative Solutions

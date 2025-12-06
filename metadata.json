@@ -1,0 +1,7 @@
+{
+  "name": "MediBot Live",
+  "description": "A realtime AI medical assistant offering text and voice interaction for symptom analysis and health information.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

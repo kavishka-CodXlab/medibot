@@ -77,7 +77,8 @@ function App() {
 
   // Note: In a real app, this would be handled via a secure backend or environment setup
   // For this demo, we assume the environment variable is injected.
-  const API_KEY = process.env.API_KEY || '';
+  // Use standard Vite env var pattern
+  const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || '';
 
   if (!API_KEY) {
     return (
@@ -86,7 +87,7 @@ function App() {
           <HeartPulse size={48} className="text-red-500 mx-auto mb-4" />
           <h1 className="text-2xl font-bold text-slate-800 mb-2">Configuration Error</h1>
           <p className="text-slate-600">
-            API Key is missing. Please ensure <code>process.env.API_KEY</code> is configured correctly in your environment.
+            API Key is missing. Please ensure <code>VITE_GEMINI_API_KEY</code> is configured correctly in your environment.
           </p>
         </div>
       </div>
